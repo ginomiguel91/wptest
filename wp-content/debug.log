@@ -1,0 +1,14 @@
+[10-Apr-2023 16:41:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in C:\xampp\htdocs\wordpress\wp-content\plugins\plugin-test\plugin-test.php:17
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): menu_superior(Object(WP_Admin_Bar))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\admin-bar.php(95): do_action_ref_array('admin_bar_menu', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): wp_admin_bar_render('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-admin\admin-header.php(267): do_action('in_admin_header')
+#8 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(605): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\plugin-test\plugin-test.php on line 17
+[10-Apr-2023 19:40:23 UTC] PHP Warning:  Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in C:\xampp\htdocs\wordpress\wp-includes\update.php on line 447
