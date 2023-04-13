@@ -1,0 +1,28 @@
+/*
+Theme Name:   Twenty Twenty-One Child
+Theme URI:    http://misitio.com/twenty-twenty-One-child/
+Description:  Child theme para modificaciones varias
+Author:       Mi nombre
+Author URI:   http://misitio.com
+Template:     twentytwentyone
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  twenty-twenty-One child
+*/
+
+.frm-detail-fruits label {
+    width: 200px;
+    display: inline-block;
+}
+
+.frm-detail-fruits>div {
+    margin-bottom: 20px;
+}
+
+.message {
+    border: 1px solid grey;
+    padding: 10px 20px;
+    margin: 20px auto 30px;
+}
